@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*    font-family: 'NanumSquare', sans-serif;
+        font-family: "Nanum Gothic", sans-serif;
+*/
+.ranking{
+    overflow: hidden;
+    margin-top: 40px;
+}
+.ranking .bar{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'NanumSquare', sans-serif;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eaf6ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ranking .bar .num{
+    width: 150px;
+    display: inline-block;
+
+}
+.ranking .bar .nikname{
+    width: 400px;
+    display: inline-block;
+}
+.ranking .bar .follow{
+    width: 200px;
+    display: inline-block;
+}
+.ranking .bar .railronote{
+    width: 250px;
+    display: inline-block;
+}
+.ranking .member{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    height: 100px;
+}
+.ranking .member .rank{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Nanum Gothic", sans-serif;
+    text-align: center;
+    width: 150px;
+    float: left;
+    padding-top: 20px;
+}
+.ranking .member .profile{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.ranking .member .name{
+    float: left;
+    font-size: 2rem;
+    font-family: 'NanumSquare', sans-serif;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    overflow: hidden;
+    width: 280px;
+    padding-left: 20px;
+}
+.ranking .member .follow_cnt{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: 'NanumSquare', sans-serif;
+    float: left;
+    font-size: 1.5rem;
+    width: 200px;
+    text-align: center;
+}
+.ranking .member .review_cnt{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: 'NanumSquare', sans-serif;
+    float: left;
+    font-size: 1.5rem;
+    width: 250px;
+    text-align: center;
+}

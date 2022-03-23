@@ -1,0 +1,496 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+#sub-content #sub-con-navi{
+    border-top: 1px solid #ccc;
+    background-color: white;
+}
+
+#sub-content #note_img{
+    min-width: 1020px;
+    width: 100%;
+    height: 390px;
+    border-top: 1px solid #ccc;
+    margin: 0 auto;
+}
+#note_img .note_info{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    min-width: 1020px;
+    height: 390px;
+    color: white;
+    font-family: 'NanumSquare', sans-serif;
+}
+.note_info .note_info_center{
+    width: 1020px;
+    height: 390px;
+    margin: 0 auto;
+}
+.note_info_center .top{
+    overflow: hidden;
+    width: 100%;
+    padding-top: 25px;
+}
+.note_info_center .like{
+    background-color: rgba(255, 255, 255, 0.53);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    float: right;
+    margin-right: 15px;
+}
+.note_info_center .like:hover{
+    background-color: white;
+}
+#img{
+    display: none;
+}
+.cover_img{
+    float: left;
+}
+#note_img:hover .img_change{
+    display: block;
+}
+
+.cover_img .img_change{
+    padding: 8px 15px;
+    background-color: rgba(0, 0, 0, 0.46);
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: none;
+}
+.note_info_center .like img{
+    width: 30px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 9px;
+}
+.note_info_center .add_mynote{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.53);
+    float: right;
+}
+.note_info_center .add_mynote:hover{
+    background-color: white;
+}
+.note_info_center .add_mynote img{
+    width: 30px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.note_info_center .user{
+    color: white;
+    font-family: "Nanum Gothic", sans-serif;
+    margin-top: 130px;
+}
+
+.note_info_center .user .user_img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid #ccc;
+    float: left;
+    overflow:hidden;
+}
+
+.note_info_center .user .user_img img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.note_info_center .user .user_name{
+    float: left;
+    padding:6px 0px 6px 5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.note_info_center .user .follow{
+    float: left;
+    text-align: center;
+    font-size: 1.0rem;
+    font-weight: bold;
+    border: 2px solid #0076ff;
+    background-color: white;
+    color: #0076ff;
+    border-radius: 5px;
+    width: 60px;
+    padding: 3px 0px 3px 0px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.follower{
+   border-color:  white;
+    background-color: #0076ff;
+    color: white;
+}
+
+.note_info_center .title{
+    margin-top: 175px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.note_info_center .note_date{
+    margin-top: 5px;
+   font-size: 1.2rem;
+}
+.note_info_center .note_date .date{
+    float: left;
+     font-family: 'NanumSquare', sans-serif;
+     padding: 5px 8px 5px 0;
+}
+.note_info_center .note_date .tema{
+    float: left;
+    padding: 5px 8px;
+    font-family: 'NanumSquare', sans-serif;
+}
+.note_info_center .add_info{
+    margin-top: 40px;
+    width: 100%;
+}
+.note_info_center .add_info .rectangle{
+    float: left;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(0, 0, 0, 0.27);
+}
+.note_info_center .add_info .rectangle img{
+    width: 25px;
+    float: left;
+}
+.note_info_center .add_info .rectangle .view{
+    margin-left:10px;
+}
+.note_info_center .add_info .rectangle span{
+    float: left;
+    padding: 3.5px 2px 3.5px 3px;
+    font-size: 1.2rem;
+    font-family: "Nanum Gothic", sans-serif;
+}
+#sub-content{
+    background-color: #f8f8fa;
+}
+#sub-con-body{
+    position: relative;
+}
+#sub-con-body .plan_nav{
+    margin-left: -190px;
+    overflow: hidden;
+    border-top: 3px solid #8b8b8b;
+    border-bottom: 3px solid #8b8b8b;
+    width: 150px;
+    background-color: white;
+}
+.plan_nav .top_arrow{
+    width: 100%;
+    height: 20px;
+    background: url('../mynote_jpg/arrow.png') no-repeat center;
+    background-size: 30px;
+    cursor: pointer;
+    padding-top: 5px;
+    transform: rotate(180deg);
+}
+.plan_nav .top_arrow:hover{
+    background: url('../mynote_jpg/arrow_hover.png') no-repeat center;
+    background-size: 30px;
+    transform: rotate(180deg);
+}
+.plan_nav .bottom_arrow{
+    width: 100%;
+    height: 20px;
+    background: url('../mynote_jpg/arrow.png') no-repeat center;
+    background-size: 30px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.plan_nav .bottom_arrow:hover{
+    background: url('../mynote_jpg/arrow_hover.png') no-repeat center;
+    background-size: 30px;
+}
+.plan_nav .nav_route{
+    width: 100%;
+    overflow: hidden;
+}
+.plan_nav .nav_route li{
+    text-align: center;
+    color: #898989;
+    font-size: 13px;
+    font-family: "Nanum Gothic", sans-serif;
+    cursor: pointer;
+}
+
+.plan_nav .nav_route li hr{
+    border: none;
+    border-left: 2px dotted #ccc;
+    color: #fff;
+    background-color: #fff;
+    height: 20px;
+    width: 1px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.plan_nav .nav_route li:first-child{
+    padding-top: 10px;
+}
+.plan_nav .nav_route li:last-child{
+    padding-bottom: 10px;
+}
+#sub-con-body .plan_route{
+    width: 1020px;
+    overflow: hidden;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+#sub-con-body .plan_route .select{
+    float: right;
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+#sub-con-body .plan_route .select li{
+    float: left;
+    cursor: pointer;
+}
+#sub-con-body .plan_route .select span{
+    float: left;
+}
+/* 일정 부분 */
+.plan_route .plan_info{
+    margin-top: 50px;
+    font-family: "Nanum Gothic", sans-serif;
+    overflow: hidden;
+}
+.plan_route .plan_info .day_info{
+
+}
+.plan_route .plan_info .day_info .day{
+    float: left;
+    background-color: #0093ff;
+    color: white;
+    width: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.plan_route .plan_info .day_info .date_info{
+    float: left;
+    background-color: #ffffff;
+    width: 869px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6c6c6c;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border-right: 1px solid #ccc;
+}
+.plan_route .plan_info .day_info .date_info .date{
+    float: right;
+    margin-right: 20px;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+.plan_route .plan_info .day_info .date_info .area{
+    margin-left: 30px;
+    color: black;
+}
+.plan_info .day_route{
+    width: 1018px;
+    overflow: hidden;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.plan_info .day_route .route{
+    width: 1020px;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.plan_info .day_route .route .number{
+   float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 150px;
+}
+.plan_info .day_route .route span{
+    background-color: #0080ff;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: table;
+    font-weight: bold;
+}
+.plan_info .day_route .info{
+    width: 870px;
+    background-color: white;
+    float: left;
+    position: relative;
+    padding-bottom: 10px;
+}
+.plan_info .day_route .info a{
+    overflow: hidden;
+    margin-top: 13px;
+    float: left;
+}
+.plan_info .day_route .info a img{
+    width: 150px;
+    height: auto;
+}
+.plan_info .day_route .info .title{
+    margin-left: 10px;
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: "Nanum Gothic", sans-serif;
+    display: inline-block;
+}
+.plan_info .day_route .info .kinds{
+    overflow: hidden;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+.plan_info .day_route .info .kinds .food_tour_hash{
+    width: 23px;
+    height: auto;
+    float: left;
+}
+.plan_info .day_route .info .kinds select{
+    width: 100px; /* 원하는 너비설정 */
+    padding: .3em .5em; /* 여백으로 높이 설정 */
+    font-family: inherit;  /* 폰트 상속 */
+    border: 1px solid #999;
+    border-radius: 0px; /* iOS 둥근모서리 제거 */
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    float: left;
+    margin-left: 5px;
+}
+.plan_info .day_route .info .kinds button{
+    padding: .3em .5em; /* 여백으로 높이 설정 */
+    font-family: inherit;  /* 폰트 상속 */
+    border: 1px solid #0076ff;
+    border-radius: 0px; /* iOS 둥근모서리 제거 */
+    color: white;
+    background-color: #0076ff;
+    
+}
+.plan_info .day_route .info .kinds h1{
+    float: left;
+    font-size: 1.3rem;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+.plan_info .day_route .info .kinds .like{
+    width: 23px;
+    height: auto;
+    float: left;
+}
+.plan_info .day_route .info .kinds h2{
+    float: left;
+    font-size: 1.2rem;
+    font-family: 'NanumSquare', sans-serif;
+    margin-top: 5px;
+    color: #5a5a5a;
+}
+.plan_info .day_route .info .kinds a{
+    float: right;
+    margin-right: 20px;
+   margin-top: 7px;
+}
+.plan_info .day_route .info .kinds a .info{
+    width: 30px;
+    height: auto;
+}
+.plan_info .day_route .info .arrow{
+    border: 10px solid transparent;
+    position: absolute;
+    border-right-color: #dddddd;
+    left: 141px;
+    top: 83px;
+    z-index: 5;
+}
+.plan_info .day_route .info .post{
+    float: left;
+    background-color: #dddddd;
+    margin-left: 10px;
+    font-family: 'NanumSquare', sans-serif;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-top: -15px;
+}
+.plan_info .day_route .line{
+   border: none;
+    border-left: 5px dotted #ccc;
+    color: #fff;
+    background-color: #fff;
+    height: 50px;
+    width: 1px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.day_route .route:nth-child(n+2){
+    border-top: 1px solid #ccc;
+}
+.plan_route table{
+    margin: 0;
+    padding: 0;
+    width: 1020px;
+    overflow: hidden;
+    background-color: white;
+    display: none;
+    margin-top: 50px;
+}
+
+.plan_route table tr th{
+    border:1px solid #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #1b4876;
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Nanum Gothic", sans-serif;
+ 
+}
+.plan_route table tr td{
+    border: 1px solid #ccc;
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'NanumSquare', sans-serif;
+}
+.plan_route table tr td:first-child{
+    text-align: center;
+    width: 250px;
+}
+.plan_route table tr td:nth-child(2){
+    width: 200px;
+}
+.plan_route table tr td:nth-child(3){
+    width: 285px;
+}
+.plan_route table tr td:nth-child(4){
+    width: 285px;
+}
+table tr td div{
+    margin-left: 10px;
+}

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.con_title{
+    font-weight: bold;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+}
+.edit_form{
+    margin-top: 30px;
+    border: 1px solid #000000;
+    overflow: hidden;
+}
+.edit_title{
+    width: 550px;
+    margin: 10px auto;
+}
+.edit_title div{
+    float: left;
+    font-size: 1.5rem;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.edit_title input{
+    float: left;
+    width: 500px;
+    height: 30px;
+    background-color: #ccc;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1.3rem;
+    border: 1px solid #ccc;
+}
+.edit_content{
+    width: 550px;
+    margin: 0px auto;
+    overflow: hidden;
+    display: block;
+}
+.edit_content div{
+    margin-top: 10px;
+    float: left;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.edit_content textarea{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-family: 'NanumSquare', sans-serif;
+}
+.edit_file{
+    overflow: hidden;
+    display: block;
+    margin: 20px auto;
+    width: 550px;
+}
+.edit_file input{
+    float: left;
+}
+.edit_submit{
+    width: 550px;
+    margin: 10px auto;
+    display: block;
+    overflow: hidden;
+}
+.edit_submit input{
+    display: block;
+    width: 80px;
+    height: 40px;
+    background-color: #0076ff;
+    color: white;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+}

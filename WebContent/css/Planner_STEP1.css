@@ -1,0 +1,391 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+    html{
+        height: 100%;
+    }
+    body{
+        height: 100%;
+        position: relative;
+    }
+
+    header{
+        width: 100%;
+        height: 10%;
+    }
+    header img{
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+    header .title{
+        float: left;
+        font-family: 'NanumSquare', sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 8px;
+    }
+    header .title li{
+        float: left;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+    header .title img{
+        width: 50px;
+        float: left;
+        margin-top: 21px;
+        margin-left: 10px;
+    }
+    header input{
+        float: right;
+        margin-top: 26px;
+        border: none;
+        color: white;
+        margin-right: 20px;
+        padding: 10px 40px;
+        background-color: black;
+        cursor: pointer;
+    }
+    section{
+        width: 100%;
+        float: left;
+        height: 90%;
+        overflow: hidden;
+        position: relative;
+    }
+    section #left{
+        float: left;
+    /*    width: 330px;*/
+        width: 320px;
+        height: 100%;
+        display: block;
+    }
+    section #left .left_sub1{
+        width: 70px;
+        height: 100%;
+        float: left;
+        display: block;
+        background-color: #203341;
+    }
+    section #left .left_sub1 input:first-child{
+        background-color: #1a7ad9;
+    }
+    section #left .left_sub1 input{
+        width: 70px;
+        height: 70px;
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+    section #left .left_sub1 input:hover{
+        background-color: #164c88;
+        cursor: pointer;
+    }
+
+    section .left_sub2{
+        width:250px;
+        height: 100%;
+        float: left;
+    }
+    section .left_sub2 h3{
+        text-align: left;
+        color: white;
+        font-family: 'NanumSquare', sans-serif;
+        font-size: 1.3rem;
+        background-color: #707070;
+        height: 8%;
+    }
+    section .left_sub2 span{
+        margin-left: 10px;
+        margin-top: 25px;
+        float: left;
+    }
+    section .item_list{
+        width: 100%;
+        height: 92%;
+        float: left;
+        background-color: white;
+        overflow: auto;
+    }
+    section .all{
+        display: block;
+    }
+    section .buk_do{
+        display: none;
+    }
+    section .nam_do{
+        display: none;
+    }
+
+    section .item_box{
+        border: 1px solid #ccc;
+        padding: 10px;
+        overflow: hidden;
+    }
+    section .item_box:hover{
+        background-color: #eaeaea;
+        cursor: pointer;
+    }
+    section .item_box .img_box{
+        float: left;
+    }
+    section .item_box .info_box{
+        float: left;
+        font-family: 'NanumSquare', sans-serif;
+        margin-left: 10px;
+        margin-top: 11px;
+    }
+    section .item_box .info_box .info_title{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    section .item_box .info_box .info_sub_title{
+        font-size: 1.1rem;
+    }
+    section .item_box .clear{
+        float: right;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+
+    section #map{
+        width: 71%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        float: left;
+        right: 0;
+    }
+    section #right{
+        width: 250px;
+        height: 100%;
+        background-color: #ffffff;
+        display: block;
+        position: absolute;
+        overflow: hidden;
+        right: 0;
+    }
+    section #right .create{
+        position: absolute;
+        padding: 15px 50px;
+        color: white;
+        background-color: #00baff;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1.3rem;
+        border:none;
+        bottom: 10px;
+        width: 100%;
+    }
+    section #right h3{
+        background-color: #0783ff;
+        padding: 20px 0;
+        width: 100%;
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: 'NanumSquare', sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    section #right .area_list{
+        width: 100%;
+        height: 80.6%;
+        overflow: hidden;
+    }
+    section #right .area_item_box{
+        width: 80%;
+        background-color: #ebebeb;
+        margin: 25px auto;
+        overflow: hidden;
+        border-radius: 5px;
+        padding: 10px 10px;
+    }
+    section #right .area_item_box li{
+        float: left;
+    }
+    section #right .area_title{
+        width: 50%;
+        display: block;
+        text-align: center;
+    }
+    section #right .day_custom{
+        float: right;
+    }
+    section #right .day_custom li:nth-child(2){
+        margin: 0px 8px;
+    }
+    section #right .cancel_btn{
+        cursor: pointer;
+    }
+    section #right .minus{
+        cursor: pointer;
+    }
+    section #right .plus{
+        cursor: pointer;
+    }
+    .day_custom .day{
+        background-color: transparent;
+        border: none;
+        float: left;
+        width: 8px;
+    }
+    #create_event{
+        position: absolute;
+        z-index: 200;
+        width: 500px;
+        overflow: hidden;
+        background-color: white;
+        display: none;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%);
+        box-shadow: rgba(0,0,0,0.5) 0 0 0 9999px, rgba(0,0,0,0.5) 2px 2px 3px 3px;
+    }
+
+    #create_event form{
+        margin: 0 auto;
+        display: block;
+    }
+    #create_event .title_box{
+        overflow: hidden;
+        border-bottom: 1px solid #ccc;
+    }
+    #create_event .title_box h1{
+        float: left;
+        font-size: 1.8rem;
+        font-family: 'NanumSquare', sans-serif;
+        font-weight: normal;
+        padding: 17px 15px;
+    }
+    #create_event .title_box img{
+        float: right;
+        cursor: pointer;
+    }
+    #create_event .input_title{
+        overflow: hidden;
+    }
+    #create_event .input_title h1{
+        font-size: 1.2rem;
+        font-family: 'NanumSquare', sans-serif;
+        color: #535353;
+        float: left;
+        padding: 20px 20px;
+    }
+    #create_event .input_title .pn_title{
+        height: 30px;
+        padding: 0px 10px;
+        margin-left: 20px;
+        float: left;
+        margin-top: 11px;
+        width: 335px;
+    }
+    #create_event .input_start_day{
+        overflow: hidden;
+    }
+    #create_event .input_start_day h1{
+        font-size: 1.2rem;
+        font-family: 'NanumSquare', sans-serif;
+        color: #535353;
+        float: left;
+        padding: 20px 20px; 
+    }
+    #create_event .input_start_day #datepicker{
+        height: 30px;
+        padding: 0px 10px;
+        margin-left: 37px;
+        float: left;
+        margin-top: 11px;
+        width: 150px;
+    }
+    #create_event .input_travel_day{
+        overflow: hidden;
+    }
+    #create_event .input_travel_day h1{
+        font-size: 1.2rem;
+        font-family: 'NanumSquare', sans-serif;
+        color: #535353;
+        float: left;
+        padding: 20px 20px; 
+    }
+    #create_event .input_travel_day .five{
+        float: left;
+        margin-top: 20px;
+        margin-left: 65px;
+    }
+    #create_event .input_travel_day .five_day{
+        float: left;
+        margin-top: 17px;
+        margin-left: 7px;
+        font-size: 1.2rem;
+        font-family: 'NanumSquare', sans-serif;
+    }
+    #create_event .input_travel_day .seven{
+        float: left;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    #create_event .input_travel_day .seven_day{
+        margin-left: 7px;
+        font-size: 1.2rem;
+        font-family: 'NanumSquare', sans-serif;
+        float: left;
+        margin-top: 17px;
+    }
+    #create_event .input_travel_day #person_cnt{
+        float: left;
+        width: 60px;
+        margin-top: 13px;
+        margin-left: 50px;
+        height: 25px;
+    }
+    #create_event .input_travel_tema{
+        overflow: hidden;
+    }
+
+    #create_event .input_travel_tema>h1{
+        font-size: 1.2rem;
+        font-family: 'NanumSquare', sans-serif;
+        color: #535353;
+        float: left;
+        padding: 80px 20px;
+    }
+
+    #create_event .input_travel_tema label h1{
+        display: block;
+       margin-left: 25px;
+        margin-top: 5px;
+    }
+    #create_event .input_travel_tema label img{
+        display: block;
+    }
+    #create_event .input_travel_tema input{
+        display: none;
+    }
+    #create_event .input_travel_tema div{
+        float: left;
+        margin-left: 60px;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    input[type=radio]:checked+label{
+        border: 1px solid #ccc;
+    }
+    #create_event .input_travel_tema div label{
+        padding: 10px;
+        float: left;
+        margin-left: 20px;
+    }
+    #create_event .save input{
+        padding: 10px 30px;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: none;
+        color: white;
+        background-color: #0076ff;
+        float: right;
+        margin-right: 20px;
+        cursor: pointer;
+    }

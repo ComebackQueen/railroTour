@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*    font-family: 'NanumSquare', sans-serif;
+        font-family: "Nanum Gothic", sans-serif;
+*/
+
+#sub-imgbanner{
+    background-image: url(../mypage_img/privacy.png);
+    background-position: center;
+    font-family: 'NanumSquare', sans-serif;
+}
+.m-menu .selected{
+    border-bottom: 3px solid #25b3ff;
+    color: #25b3ff;
+}
+#sub-con-body .mypage{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 900px;
+}
+#sub-con-body .mypage .box1{
+    float: left;
+    width: 230px;
+    padding: 30px 25px;
+    font-size: 2.5rem;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #494949;
+    letter-spacing: -1px;
+    cursor:context-menu;
+    margin-left: 15px;
+    height: 200px;
+    position: relative;
+}
+#sub-con-body .mypage .box1 div{
+    font-size: 1.2rem;
+    font-weight:bolder;
+    color: #848383;
+    font-family: "Nanum Gothic", sans-serif;
+    
+}
+#sub-con-body .mypage .box1 .text1{
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: 'NanumSquare', sans-serif;
+}
+#sub-con-body .mypage .box1 .text2{
+    margin-top: 5px;
+    font-weight: 700;
+    font-family: 'NanumSquare', sans-serif;
+    color: #0079ff;
+}
+#sub-con-body .mypage .box1 .text3{
+    margin-top: 5px;
+    font-weight: 700;
+    font-family: 'NanumSquare', sans-serif;
+}
+#sub-con-body .mypage .box1 .text3 span{
+    color: #0079ff;
+}
+#sub-con-body .mypage .box1 .text5{
+    margin-top: 80px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1rem;
+    color: #858585;
+    font-weight: bolder;
+}
+#sub-con-body .mypage .box1 .text4{
+    margin-top: 40px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1rem;
+    color: #858585;
+    font-weight: bolder;
+}
+.mypage .btn{
+    font-size: 1.2rem;
+    padding: 5px 3px;
+    background-color: #0079ff;
+    color: white;
+    border-radius: 20px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 1.5em;
+    bottom: 5em;
+}
+#sub-con-body .mypage .box1 .text6{
+    margin-top: 80px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1rem;
+    color: #858585;
+    font-weight: bolder;
+}
+.notify{
+    overflow: hidden;
+    width: 870px;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.notify .pwimg{
+    background-image: url(../mypage_img/password.png);
+    background-repeat: no-repeat;
+    float: left;
+    background-size: 100px;
+    background-position: left;
+    width: 100px;
+    height: 100px;
+}
+.notify .title{
+    padding-top: 25px;
+    padding-bottom: 25px;
+   margin-left: 20px;
+    float: left;
+}
+.notify .title .textcolor{
+    color: #0079ff;
+}
+#passwordchange{
+    overflow: hidden;
+    width: 700px;
+    margin: 0 auto;
+}
+#management{
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto;
+}
+#passwordchange .pw1{
+    overflow: hidden;
+    margin-top: 50px;
+}
+#passwordchange .pw1 span{
+    font-size: 1.5rem;
+    font-family: 'NanumSquare', sans-serif;
+    width: 110px;
+    display: inline-block;
+}
+#passwordchange .pw1 .password{
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+input:focus {
+  outline: none;
+}
+#passwordchange .pw1 .password:focus{
+    border-color: #00a7ff;
+}
+#passwordchange .tip{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#passwordchange .tip .tipimg{
+    border: none;
+    background-color: #797979;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    float: left;
+}
+#passwordchange .tip .tiptext{
+    overflow: hidden;
+    font-family: "Nanum Gothic", sans-serif;
+    color: #797979;
+    font-weight: 700;
+    margin-left: 30px;
+    float: left;
+}
+#passwordchange .tip .tiptext li{
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+.btngroup{
+    overflow: hidden;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.btngroup .previous{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #0079ff;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    padding: 15px 20px 15px 20px;
+    background-color: white;
+    display: inline-block;
+    font-size: 1.3rem;
+    float: left;
+}
+.btngroup .submit{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    padding: 15px 35px 15px 35px;
+    background-color: white;
+    display: inline-block;
+    font-size: 1.3rem;
+    float: left;
+    margin-left: 10px;
+    background-color: #0079ff;
+}
+#management ul{
+    overflow: hidden;
+}
+#management ul li{
+    overflow: hidden;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: -1.5px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#management ul li .text{
+    padding:40px 0px 40px 25px;
+    width: 200px;
+    float: left;
+}
+#management ul .profile img{
+    width: 70px;
+    height: 70px;
+    overflow:hidden;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#management ul .profile .imgchange{
+    font-size: 1.2rem;
+    padding: 10px;
+    border:1px solid #ccc;
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+#management ul li div{
+    padding: 40px 50px 40px 0px;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    display: inline-block;
+}
+.notify .removeimg{
+    background-image: url(../mypage_img/rubbish-bin.png);
+    background-repeat: no-repeat;
+    float: left;
+    background-size: 100px;
+    background-position: left;
+    width: 100px;
+    height: 100px;
+}
+
+/* 회원탈퇴 페이지 */
+
+.explanation{
+    overflow: hidden;
+    border:1px solid #ccc;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.explanation ul:first-child{
+    overflow: hidden;
+    padding: 20px 0px 20px 25px;
+    width: 500px;
+    float: left;
+}
+.explanation ul:nth-child(2){
+    overflow: hidden;
+}
+.explanation ul:nth-child(2) li{
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+.explanation ul li:first-child{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.explanation ul li:nth-child(2){
+    margin-bottom: 5px;
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 1.2rem;
+}
+.pwcheck{
+    overflow: hidden;
+    width: 330px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pwcheck span{
+    font-size: 1.4rem;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bold;   
+}
+.pwcheck .pw{
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: "Nanum Gothic", sans-serif;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+}

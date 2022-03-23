@@ -1,0 +1,17 @@
+<Context> 
+<Resource name="jdbc/CUBRIDDS" auth="Container" type="javax.sql.DataSource"
+
+      factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+
+      driverClassName="cubrid.jdbc.driver.CUBRIDDriver"
+
+      url="jdbc:cubrid:211.229.156.151:33000:RailroTour:::?charset=UTF-8" username="dba" password="rmsep12"
+
+      maxActive="1000000000" maxIdle="1000000000" maxWait="-1"
+
+      validationQuery="select 1" testOnBorrow="false"
+
+      jdbcInterceptors="StatementCache(prepared=true)"
+
+/>
+</Context>
