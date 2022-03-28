@@ -12,6 +12,10 @@
 
 **DB설계도 :** https://docs.google.com/presentation/d/1h6BRSW4Zaiv1woa_E1JpDcHd3g2A10-P/edit?usp=sharing&ouid=107148269951797787950&rtpof=true&sd=true
 
+**프로젝트 일정**
+
+![프로젝트 일정](https://user-images.githubusercontent.com/87848564/160341350-4d375d7c-1823-48fe-b9d7-6a8fb3723cbd.png)
+
 ---
 
 ## Description
@@ -20,7 +24,7 @@
 
 ### Summary
 
-![1](../ComebackQueen.github.io/assets/images/README/160075736-21f3df81-45e9-4068-a7e5-bdfc6a17c94a.jpeg)
+![title](https://user-images.githubusercontent.com/87848564/160341975-e837a3bb-cfe5-43e4-bc71-39ccde874c5d.JPG)
 
 - 내일로 여행 시 계획부터 여행까지에 있어 불편한 점들을 개선해주는 시스템으로 구성
 - 사용자의 내일로 노트(여행 계획)를 웹, 앱에서 언제 어디서든 볼 수 있음
@@ -90,7 +94,7 @@
 
 ### 시스템 구성도
 
-![2](../ComebackQueen.github.io/assets/images/README/160087216-1d6c7df7-1f2d-4ef1-88b9-4f9e4ba7e17e.gif)
+![시스템구성도](https://user-images.githubusercontent.com/87848564/160342081-e4138982-84b3-4532-96ec-85b6b0f2a5e1.png)
 
 
 
@@ -98,7 +102,14 @@
 
 ### 통합검색
 
-![5](../ComebackQueen.github.io/assets/images/README/160088406-43b4672f-2180-42f1-83e2-5d070c7b0dba.jpeg)
+- **검색화면**
+
+![search](https://user-images.githubusercontent.com/87848564/160345008-9507d89b-6886-4cf9-b582-6ddffd7abf8f.gif)
+
+
+- **상세정보**
+
+![detail](https://user-images.githubusercontent.com/87848564/160346907-bbc63645-3286-41b2-9d22-4ebe906442d1.gif)
 
 
 
@@ -106,20 +117,19 @@
 
 ### 내일로 노트 Step 1
 
-![4](../ComebackQueen.github.io/assets/images/README/160088401-a0081fd8-d999-45d2-af95-72f029c7676d.jpeg)
+![Step1](https://user-images.githubusercontent.com/87848564/160348912-4370dacd-1d66-4c41-a9ec-a9d8f3a96167.gif)
 
 
 
 ### 내일로 노트 Step 2
 
-
+![Step2](https://user-images.githubusercontent.com/87848564/160349114-a0893e2b-8092-4495-b017-e48247e55e9b.gif)
 
 
 
 ### 내 주변
 
+![map](https://user-images.githubusercontent.com/87848564/160349614-cc11df13-a32b-4e94-bf43-487cad13b9ae.JPG)
 
 
-
-
-(※ 멀티플레이 게임은 DB가 없어서 플레이를 진행할수가 없었습니다...😭)
+![detail](https://user-images.githubusercontent.com/87848564/160349885-d8c22438-0dd4-434a-85b0-b65dd1a4616e.JPG)
